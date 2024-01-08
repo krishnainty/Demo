@@ -1,13 +1,13 @@
 import streamlit as st
 st.set_page_config(page_title='Cats')
-st.header("Types of Cats")
+st.header("Types of Dogs")
 
 col1, col2 = st.columns(2)
 with col1:
   st.subheader("Persian Cat")
-  st.image("./Husky.jpeg", caption="Persian Cat", width=300,use_column_width=True)
+  st.image("./Husky.jpeg", caption="Husky", width=300,use_column_width=True)
   st.write("Persian cats are cute")
 with col2:
   st.subheader("Ragdoll Cat")
-  st.image("./ragdoll.jpg", caption="Ragdoll Cat", width=300,use_column_width=True)
+  st.image("./Golden Retriever.jpg", caption="Ragdoll Cat", width=300,use_column_width=True)
   st.write("Ragdoll cats are proud")
