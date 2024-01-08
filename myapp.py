@@ -1,4 +1,4 @@
-iimport streamlit as st
+import streamlit as st
 st.set_page_config(page_title='Dogs')
 st.header("Types of Dogs")
 
