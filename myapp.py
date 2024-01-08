@@ -9,5 +9,5 @@ with col1:
   st.write("Persian cats are cute")
 with col2:
   st.subheader("Ragdoll Cat")
-  st.image("./Golden Retriever.jpg", caption="Ragdoll Cat", width=300,use_column_width=True)
+  st.image("./Golden Retriever.jpeg", caption="Ragdoll Cat", width=300,use_column_width=True)
   st.write("Ragdoll cats are proud")
